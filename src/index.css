@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans text-caramel bg-cloud;
+  }
+}
+
+@layer components {
+  .card-glass {
+    @apply rounded-3xl bg-white/60 backdrop-blur-md shadow-lg p-6 border border-white/80;
+  }
+  .btn-primary {
+    @apply bg-caramel text-white rounded-full px-6 py-2 hover:bg-caramel/90 transition-all duration-300;
+  }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
