@@ -50,7 +50,7 @@ const Home = () => {
         <SearchBar
           value={searchQuery}
           onChange={setSearchQuery}
-          placeholder="Search your sparkling mood..."
+          placeholder="search your sparkling flavor..."
         />
       </section>
 
