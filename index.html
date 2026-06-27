@@ -6,9 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bubble Bliss</title>
     <meta name="description" content="Discover 50 sparkling wine and cocktail recipes with ingredients and serving tips. Browse curated articles on champagne, prosecco, and cava." />
+    <link rel="canonical" href="https://bubble-bliss-eight.vercel.app/" />
+    <meta name="theme-color" content="#775537" />
+    <meta name="apple-mobile-web-app-title" content="Bubble Bliss" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Bubble Bliss" />
+    <meta property="og:title" content="Bubble Bliss" />
+    <meta property="og:description" content="Discover 50 sparkling wine and cocktail recipes with ingredients and serving tips. Browse curated articles on champagne, prosecco, and cava." />
+    <meta property="og:url" content="https://bubble-bliss-eight.vercel.app/" />
+    <meta property="og:image" content="https://bubble-bliss-eight.vercel.app/og-cover.jpg" />
+    <meta property="og:image:alt" content="Bubble Bliss sparkling wine collection" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bubble Bliss" />
+    <meta name="twitter:description" content="Discover 50 sparkling wine and cocktail recipes with ingredients and serving tips." />
+    <meta name="twitter:image" content="https://bubble-bliss-eight.vercel.app/og-cover.jpg" />
+    <meta name="twitter:image:alt" content="Bubble Bliss sparkling wine collection" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- JSON-LD: Organization + WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "name": "Bubble Bliss",
+          "url": "https://bubble-bliss-eight.vercel.app/",
+          "logo": "https://bubble-bliss-eight.vercel.app/favicon.svg",
+          "description": "Curated sparkling wine and cocktail recipes with serving tips and educational articles."
+        },
+        {
+          "@type": "WebSite",
+          "name": "Bubble Bliss",
+          "url": "https://bubble-bliss-eight.vercel.app/",
+          "inLanguage": "en",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://bubble-bliss-eight.vercel.app/?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
