@@ -27,7 +27,7 @@ const Menu = () => {
     >
       <div className="max-w-7xl mx-auto">
         <h1 className="font-display text-4xl md:text-5xl font-bold text-caramel text-center mb-8">
-          Full Sparkling Menu
+          Sparkling Menu
         </h1>
 
         <div className="flex flex-wrap justify-center gap-3 mb-12">

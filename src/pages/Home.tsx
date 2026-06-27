@@ -42,7 +42,7 @@ const Home = () => {
           transition={{ delay: 0.2 }}
           className="font-display text-4xl md:text-5xl font-bold text-caramel text-center mb-8"
         >
-          Your Sparkling Wine
+          Sparkling Wine
         </motion.h1>
       </section>
 
