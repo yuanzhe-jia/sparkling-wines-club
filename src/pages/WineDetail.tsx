@@ -102,7 +102,7 @@ const WineDetail = () => {
             <h3 className="font-display text-xl font-semibold text-caramel mb-3">
               Recipe
             </h3>
-            <p className="text-caramel/80 leading-relaxed">{wine.recipe}</p>
+            <p className="text-caramel/80 leading-relaxed whitespace-pre-line">{wine.recipe}</p>
           </motion.div>
         </div>
       </div>

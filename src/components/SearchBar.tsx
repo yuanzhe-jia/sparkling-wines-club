@@ -9,7 +9,7 @@ interface SearchBarProps {
 const SearchBar = ({ value, onChange, placeholder = "Search..." }: SearchBarProps) => {
   return (
     <div className="relative max-w-xl mx-auto">
-      <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-caramel/50" size={20} />
+      <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-caramel/50 z-10" size={20} />
       <input
         type="text"
         value={value}
