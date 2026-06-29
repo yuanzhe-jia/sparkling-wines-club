@@ -1,4 +1,4 @@
-# Bubble Bliss
+# Sparkling Wines Club
 
 A web application for sparkling wine and cocktail enthusiasts. Browse curated articles, discover 50 sparkling wine recipes with detailed ingredients and serving instructions, and filter by scenarios like Romantic Dinner, Beach Day, or Rooftop Party.
 
