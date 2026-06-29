@@ -57,7 +57,7 @@ const Home = () => {
       <section className="mb-16 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="font-display text-2xl md:text-2xl font-bold text-caramel">
+            <h2 className="font-display text-2xl md:text-2xl text-caramel">
               Today's Picks
             </h2>
             <Link
@@ -86,7 +86,7 @@ const Home = () => {
       <section className="px-4">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="font-display text-2xl md:text-2xl font-bold text-caramel">
+            <h2 className="font-display text-2xl md:text-2xl text-caramel">
               Wine Knowledge
             </h2>
           </div>

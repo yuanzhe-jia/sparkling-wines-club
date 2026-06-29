@@ -42,7 +42,7 @@ A web application for sparkling wine and cocktail enthusiasts. Browse curated ar
 ## Project Structure
 
 ```
-bubble-bliss/
+sparkling-wines-club/
 ├── public/
 │   ├── favicon.svg
 │   └── images/
