@@ -15,6 +15,7 @@ export default {
       fontFamily: {
         display: ['"Playfair Display"', 'serif'],
         sans: ['Nunito', 'sans-serif'],
+        script: ['"Mr Dafoe"', 'cursive'],
       },
     },
   },

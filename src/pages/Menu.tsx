@@ -26,8 +26,8 @@ const Menu = () => {
       className="pt-24 pb-8 px-4"
     >
       <div className="max-w-7xl mx-auto">
-        <h1 className="font-display text-4xl md:text-5xl text-caramel text-center mb-8">
-          Wine Menu
+        <h1 className="font-script text-5xl md:text-7xl text-caramel text-center mb-8">
+          Menu
         </h1>
 
         <div className="flex flex-wrap justify-center gap-3 mb-12">
