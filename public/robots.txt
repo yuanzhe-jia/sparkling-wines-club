@@ -1,4 +1,3 @@
+Sitemap: https://sparklingwines.club/sitemap.xml
 User-agent: *
 Allow: /
-
-Sitemap: https://www.sparklingwines.club/sitemap.xml
